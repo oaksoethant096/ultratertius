@@ -1,0 +1,1069 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('imgsForH/imgForL.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.logostyle{
+  height: 70px;
+  width: 70px;
+}
+
+.logostyle:hover {
+transform: scale(1.2); 
+transition: all 0.3s ease-in-out; 
+} 
+
+.nav-bar{
+  margin: auto;
+}
+
+.hamburger{
+  display: none;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: #fefefe;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 5px;
+}
+
+.nav-bar ul li a:hover{
+  color: #11101b;
+  background: #fefefe;
+}
+
+.login ul li a{
+border: 1px solid white;
+text-decoration: none;
+display: inline-block;
+color: #fefefe;
+font-size: 20px;
+padding: 10px 25px;
+transition: 0.2s;
+margin: 0px;
+}
+
+.login ul li a:hover{
+  color: #11101b;
+  background: #fefefe;
+}
+
+
+.head h1{
+  margin-left: 580px;
+  margin-top: 20px;
+  font-size: 1.7em;
+}
+
+.bgdiv{
+  width: 100%;
+  height: 600px;
+  background: rgba(217, 218, 255, 0.8);
+  margin-top: 0px;
+}
+
+.content{
+  margin-top: 30px;
+  margin-left: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 440px;
+  width: 350px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid skyblue;
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content h3{
+  margin-left: 60px;
+  margin-top: -28px;
+  width: 400px;
+}
+
+.content ion-icon{
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.content p{
+  margin-left: 63px;
+  margin-top: 10px;
+}
+
+.content1{
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid skyblue;
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content2{
+  position: absolute;
+  margin-left: 630px;
+  margin-top: -105px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50px;
+ background: rgba(0, 0, 0, 0.5);
+  border: 2px solid skyblue;
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.info{
+  width: 100%;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid darkturquoise;
+  transition: .5s;
+}
+
+.info h1{
+  text-align: center;
+  font-size: 1.9em;
+  padding: 15px;
+  font-family: serif;
+  transition: 1s;
+}
+
+.info h1:hover{
+  color: white;
+  transition: 1s;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  width: 100%;
+}
+
+.form-box{
+  margin-top: -440px;
+  margin-left: 680px;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid skyblue;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1.5em gray;
+
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px ;
+    width: 350px;
+    border-bottom: 2px solid skyblue;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    color: white;
+}
+
+input:focus ~ label, input:valid ~ label{
+                           top: -5px;
+                         }
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    top: 20px;
+    color: white;
+}
+
+button{
+    margin-left: 40px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: .5s;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid skyblue;
+    color: white;
+}
+
+button:hover{
+    color: black;
+    transition: .5s;
+}
+
+.head3{
+  color: black;
+  background-color: skyblue;
+  height: 120px;
+  width: 1100;
+  padding-left: 500px;
+  padding-top: 40px;
+}
+
+.head3:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.8s;
+  text-shadow: 0 0 5px cyan, 
+  0 0 25px cyan, 0 0 50px cyan, 
+  0 0 100px cyan, 0 0 200px cyan;
+}
+
+.footer{
+  padding: 60px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid darkturquoise;
+ }
+
+.footer .social{
+text-align: center;
+padding-bottom: 25px;
+color: gray;
+}
+
+.footer .social a{
+font-size: 24px;
+color: inherit;
+border: 1px solid white;
+width: 40px;
+height: 40px;
+line-height: 38px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+margin: 0 8px;
+opacity: 1;
+}
+
+.footer .social a:hover{
+opacity: 1;
+}
+
+.footer ul{
+margin-top: 0;
+padding: 0;
+list-style: none;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0;
+text-align: center;
+}
+
+.footer ul a{
+text-decoration: none;
+display: inline-block;
+color: #fefefe;
+font-size: 20px;
+padding: 10px 25px;
+transition: 0.2s;
+margin: 0px;
+}
+
+.footer ul li{
+display: inline-block;
+padding: 0 15px;
+}
+
+.footer ul li a:hover{
+color: #11101b;
+background: #fefefe;
+
+}
+
+.footer .copyright{
+margin-top: 15px;
+text-align: center;
+font-size: 15px;
+color: white;
+}
+
+
+.fa-facebook:hover {
+  transform: scale(1.2); 
+  transition: all 0.5s ease-in-out; 
+  color: #1094f4;
+  }
+  
+.fa-youtube:hover {
+    transform: scale(1.2); 
+    transition: all 0.5s ease-in-out; 
+    color: red;
+    }
+  
+.fa-twitter:hover {
+    transform: scale(1.2); 
+    transition: all 0.5s ease-in-out; 
+    color: lightblue;
+    } 
+  
+.fa-discord:hover {
+    transform: scale(1.2); 
+    transition: all 0.5s ease-in-out; 
+    color: #7289d9;
+    } 
+
+@media only screen and (max-width: 1320px){
+.head h1{
+  margin-left: 535px;
+  margin-top: 20px;
+  font-size: 1.7em;
+}
+
+.content{
+  margin-top: 30px;
+  margin-left: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 440px;
+  width: 350px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid skyblue;
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content h3{
+  margin-left: 60px;
+  margin-top: -28px;
+  width: 400px;
+}
+
+.content ion-icon{
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.content p{
+  margin-left: 63px;
+  margin-top: 10px;
+}
+
+.content1{
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content2{
+  position: absolute;
+  margin-left: 580px;
+  margin-top: -105px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50px;
+ background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+
+.form-box{
+  margin-top: -440px;
+  margin-left: 630px;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid skyblue;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1.5em gray;
+}
+
+.head3{
+  color: black;
+  background-color: skyblue;
+  height: 120px;
+  width: 1100;
+  padding-left: 470px;
+  padding-top: 40px;
+}
+}
+
+@media only screen and (max-width: 1120px){
+.head h1{
+  margin-left: 490px;
+  margin-top: 20px;
+  font-size: 1.7em;
+}
+
+.content{
+  margin-top: 30px;
+  margin-left: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 440px;
+  width: 350px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid skyblue;
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content h3{
+  margin-left: 60px;
+  margin-top: -28px;
+  width: 400px;
+}
+
+.content ion-icon{
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.content p{
+  margin-left: 63px;
+  margin-top: 10px;
+}
+
+.content1{
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 530px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content2{
+  position: absolute;
+  margin-left: 530px;
+  margin-top: -105px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50px;
+ background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+
+.form-box{
+  margin-top: -440px;
+  margin-left: 580px;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid skyblue;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1.5em gray;
+}
+
+.info{
+  width: 100%;
+  height: 180px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid darkturquoise;
+  transition: .5s;
+}
+
+.info h1{
+  text-align: center;
+  font-size: 1.9em;
+  padding: 15px;
+  font-family: serif;
+  transition: 1s;
+}
+
+.head3{
+  color: black;
+  background-color: skyblue;
+  height: 120px;
+  width: 1100;
+  padding-left: 380px;
+  padding-top: 40px;
+}
+
+}
+
+@media only screen and (max-width: 900px){
+.hamburger {
+      display: block;
+      cursor: pointer;
+  }
+  
+  .hamburger .line {
+      width: 30px;
+      height: 3px;
+      background: #fefefe;
+      margin: 6px 0;
+  }
+
+  .nav-bar {
+      height: 0px;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.5);
+      transition: 0.5s;
+      overflow: hidden ;
+      z-index: 2;
+  }
+
+  .nav-bar.active{
+      height: 350px;
+  }
+
+  .nav-bar ul {
+      display: block;
+      width: fit-content;
+      margin: 80px auto 0 auto;
+      text-align: center;
+      transition: 0.5s; 
+      opacity: 0;       
+  }
+  .nav-bar.active ul {
+      opacity: 1;
+  }
+  .nav-bar ul li a {
+      margin-bottom: 12px;
+  }
+
+.head h1{
+  margin-left: 345px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.content{
+  margin-top: 30px;
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 420px;
+  width: 330px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid skyblue;
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content ion-icon{
+  width: 25px;
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.content h3{
+  margin-left: 50px;
+  margin-top: -20px;
+  width: 380px;
+  font-size: 1em;
+}
+
+.content p{
+  margin-left: 60px;
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+
+.content1{
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content2{
+  position: absolute;
+  margin-left: 380px;
+  margin-top: -105px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 50px;
+ background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+
+.form-box{
+  margin-top: -420px;
+  margin-left: 430px;
+    position: relative;
+    width: 400px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid skyblue;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1.5em gray;
+    z-index: 1;
+}
+
+.info{
+  width: 100%;
+  height: 180px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid darkturquoise;
+  transition: .5s;
+}
+
+.info h1{
+  text-align: center;
+  font-size: 1.8em;
+  padding: 15px;
+  font-family: serif;
+  transition: 1s;
+}
+
+.head3{
+  color: black;
+  background-color: skyblue;
+  height: 120px;
+  width: 1100;
+  padding-left: 270px;
+  padding-top: 40px;
+}
+
+.footer{
+    height: 400px;
+    padding-top: 60px;
+    line-height: 70px;
+    }  
+
+}
+
+@media only screen and (max-width: 716px){
+
+.bgdiv{
+  width: 700px;
+  height: 455px;
+  background: rgba(217, 218, 255, 0.8);
+  margin-top: -120px;
+}
+
+.head h1{
+  margin-left: 225px;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.content{
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 320px;
+  width: 235px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid skyblue;
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content ion-icon{
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.content h3{
+  margin-left: 30px;
+  margin-top: -24px;
+  width: 380px;
+  font-size: 0.88em;
+}
+
+.content p{
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 0.74em;
+}
+
+.content1{
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 253px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20px;
+  width: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content2{
+  position: absolute;
+  margin-left: 253px;
+  margin-top: -95px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20px;
+  width: 40px;
+ background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+
+.form-box{
+  margin-top: -320px;
+  margin-left: 290px;
+    position: relative;
+    width: 350px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid skyblue;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1.5em gray;
+    z-index: 1;
+}
+
+.inputbox{
+    position: relative;
+    margin: 15px;
+    width: 300px;
+    border-bottom: 2px solid skyblue;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 0.79em;
+    pointer-events: none;
+    transition: .5s;
+    color: white;
+}
+
+input:focus ~ label, input:valid ~ label{
+                           top: -1px;
+                         }
+
+.inputbox input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    font-size: 0.79em;
+    top: 20px;
+    color: white;
+}
+
+button{
+    margin-left: 50px;
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.79em;
+    font-weight: 600;
+    transition: .5s;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid skyblue;
+    color: white;
+}
+
+.info{
+  width: 100%;
+  height: 170px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid darkturquoise;
+  transition: .5s;
+  margin-top: -120px;
+}
+
+.info h1{
+  text-align: center;
+  font-size: 1.4em;
+  padding: 15px;
+  font-family: serif;
+  transition: 1s;
+}
+
+ .head3{
+  color: black;
+  background-color: skyblue;
+  height: 120px;
+  width: 1100;
+  padding-left: 150px;
+  padding-top: 40px;
+}
+
+.footer{
+padding: 100px 0px;
+}
+}
+
+@media only screen and (max-width: 617px){
+
+   header{
+  padding: 0px 10px;
+    }
+
+  .bgdiv{
+  width: 600px;
+  height: 900px;
+  background: rgba(217, 218, 255, 0.8);
+  margin-top: 0px;
+}
+
+.head h1{
+  margin-left: 150px;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+.content{
+  margin-top: 30px;
+  margin-left: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 370px;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid skyblue;
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content h3{
+  margin-left: 100px;
+  margin-top: -38px;
+  font-size: 1.6em;
+  width: 200px;
+}
+
+.content ion-icon{
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 65px;
+}
+
+.content p{
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.content1{
+  position: absolute;
+  margin-left: 310px;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+.content2{
+  position: absolute;
+  margin-left: 110px; 
+  margin-top: 0px; 
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 30px;
+ background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 1.5em gray; 
+}
+
+
+.form-box{
+  margin-top: 50px;
+  margin-left: 25px;
+    position: relative;
+    width: 400px;
+    height: 370px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid skyblue;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1.5em gray;
+    z-index: 1;
+}
+
+.inputbox{
+    position: relative;
+    margin: 15px;
+    width: 300px;
+    border-bottom: 2px solid skyblue;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    color: white;
+}
+
+input:focus ~ label, input:valid ~ label{
+                           top: -1px;
+                         }
+
+.inputbox input {
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1em;
+    top: 20px;
+    color: white;
+}
+
+button{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: .5s;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid skyblue;
+    color: white;
+}
+
+.info{
+  width: 100%;
+  height: 170px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid darkturquoise;
+  transition: .5s;
+  margin-top: 0px;
+}
+
+.info h1{
+  text-align: center;
+  font-size: 1.2em;
+  padding: 15px;
+  font-family: serif;
+  transition: 1s;
+}
+
+.head3{
+  color: black;
+  background-color: skyblue;
+  height: 120px;
+  padding-left: 50px;
+  padding-top: 40px;
+}
